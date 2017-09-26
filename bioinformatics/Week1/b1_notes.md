@@ -7,7 +7,7 @@
         - conjectured the two strands of parent DNA unwinds during replication
             - Each act as template for synthesis of new strand.
             - Begins with pair of complementary strands, ends with two pairs of complementary strands
-            - ![naive view of DNA replication from stepik.org](http://bioinformaticsalgorithms.com/images/Replication/semiconservative_replication.png)
+            - ![naive view of DNA replication from stepik.org](http://bioinformaticsalgorithms.com/images/Replication/semiconservative_replication.png "naive view of DNA replication from stepik.org")
                 - A : Nucleotides Adenine
                 - T : Thymine
                 - C : Cytosine
