@@ -1,0 +1,15 @@
+# A Journey of a Thousand Miles...
+- **Genome Replication**: An important task carried out in the cell where
+    - cell must first replicate its genome so each of two daughter cells can inherit own copy
+    - 1953 *James Watson* and *Francis Crick* completed their paper on DNA double helix.
+        - comments below mentions: that those two relied on a lot data collected from other scientists
+            - Notable is largely uncredited photo 51 from Rosalind Franklin
+        - conjectured the two strands of parent DNA unwinds during replication
+            - Each act as template for synthesis of new strand.
+            - Begins with pair of complementary strands, ends with two pairs of complementary strands
+            - ![naive view of DNA replication from stepik.org](http://bioinformaticsalgorithms.com/images/Replication/semiconservative_replication.png)
+                - A : Nucleotides Adenine
+                - T : Thymine
+                - C : Cytosine
+                - G : Guanine
+                - A <=> T, C <=> G (Assuming my <=> means complements)
