@@ -1,5 +1,5 @@
 # A Journey of a Thousand Miles...
-## **Genome Replication**: An important task carried out in the cell where
+## *Genome Replication*: An important task carried out in the cell where:
 - cell must first replicate its genome so each of two daughter cells can inherit own copy
 - 1953 *James Watson* and *Francis Crick* completed their paper on DNA double helix.
     - comments below mentions: that those two relied on a lot data collected from other scientists
@@ -15,7 +15,7 @@
             - A <=> T, C <=> G (Assuming my <=> means complements)
         - The image is of DNA replication on a simple level
 
-## Where does replication begin? In a region called **replication origin** or **ori**
+## Where does replication begin? In a region called *replication origin* or *ori*
 - **DNA polymerases** is the molecuar copy machines.
 - Locating ori helps to understand how cells replicate but also various biomedical problems
     - Usage of **viral vectors**: able to penetrate cell walls and is a genetically engineered mini-genome
@@ -25,7 +25,8 @@
     - to do so, we need to know where the ori is in the vector's genome 
         - and that the genetic manipulations do not affect it.
 
-## Here's a problem: Assume genome has a single ori and represented as a DNA string, or seq. of nucleotides from A,C,G,T 
+## Here's a problem: 
+- Assume genome has a single ori and represented as a DNA string, or seq. of nucleotides from A,C,G,T 
 - Input: A DNA string Genome
 - output: location of ori in Genome
 - Does this biological problem represent a clearly stated computational problem?
