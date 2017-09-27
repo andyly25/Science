@@ -14,6 +14,7 @@
             - G : Guanine
             - A <=> T, C <=> G (Assuming my <=> means complements)
         - The image is of DNA replication on a simple level
+___
 
 ## Where does replication begin? In a region called *replication origin* or *ori*
 - **DNA polymerases** is the molecuar copy machines.
@@ -24,6 +25,7 @@
     - once inside patient it replicates itself and produces molecules of that protein
     - to do so, we need to know where the ori is in the vector's genome 
         - and that the genetic manipulations do not affect it.
+___
 
 ## Here's a problem: 
 - Assume genome has a single ori and represented as a DNA string, or seq. of nucleotides from A,C,G,T 
