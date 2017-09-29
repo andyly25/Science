@@ -32,3 +32,7 @@ ___
     - straightforward alg. is compute how many times each k-mer substring of Text appears in Text, then select k-mer occuring the most
         - By generating an array where count is the # of times that the i-th k-mer of Text appears in Text
         - the code for this is in bi2_3_dictionaries.py
+    - From what we found out, the 9-mer "ATGATCAAG" appears three times in the ori region of Vibrio cholerae 
+        - experiments have shown that bacterial DnaA boxes are usually 9 nucleotides long. 
+        - there are a total of 4 total 9 mers that appeared 3 times, so one of those 4 could be it.
+
