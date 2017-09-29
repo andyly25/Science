@@ -13,5 +13,5 @@
             - **dispersive**: some mechanism breaks DNA backbone into pieces and splices intervals of synth. DNA
                 - each daughter molecules is a patchwork of old and new double stranded DNA
             - ![3 models from 1950s](https://stepik.org/media/attachments/lessons/13/replication_models_one_round_1.png "3 models 1950's from stepik.org")
-            - Knowing DNA struct. contains $^14$N (not sure if this will add superscript) and is more abundant than $^15$N, Messelson and Stahl gre E. coli in $^15$N medium causing bacteria gain weight
+            - Knowing DNA struct. contains <sup>^14</sup>N (not sure if this will add superscript) and is more abundant than $^15$N, Messelson and Stahl gre E. coli in $^15$N medium causing bacteria gain weight
                 - once bacterial DNA saturated with $^15$N, transfered bacteria to less dense $^14$N
