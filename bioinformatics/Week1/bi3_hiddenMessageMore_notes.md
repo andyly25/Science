@@ -26,13 +26,13 @@
                             - **semiconservative won** out, and even after 3 rounds, a quarted DNA would have <sub>15</sub>N and remaining 75% is lighter only <sub>14</sub>N
         - *DETOUR*: Directionality of DNA strands
             - sugar componant of nucleotide has ring of 5 carbon atoms labeled 1,2,3,4,5 on figure
-                - [sugar](https://stepik.org/media/attachments/lessons/14/nucleotide_4.png "sugar molecule from stepik.org")
+                - ![sugar](https://stepik.org/media/attachments/lessons/14/nucleotide_4.png "sugar molecule from stepik.org")
                 - the 5' is joined onto the phosphate group and 3' to neighboring nucleotide. 
                     - this is why the two ends of necleotides are called 5' end and 3' end
                     - As a standard a DNA strand always read in the 5' -> 3' direction
 ___
 
-# Find the reverse complement of a DNA string
+## Find the reverse complement of a DNA string
 - the reverse complement of DNA is string formed by taking complementary nucleotide of each and then reversing the resulting string.
 - input: A DNA string pattern
 - output: The reverse complement of pattern
@@ -40,3 +40,10 @@ ___
 - Looking at the 4 most repeated 9-mers:
     - "ATGATCAAG",   "CTTGATCAT",   "TCTTGATCA",   "CTCTTGATC"
     - "ATGATCAAG" and "CTTGATCAT" are reverse complements of each other, resulting in the following six occurrences of these strings.
+
+## Find all occurences of a pattern in a string
+- input: Strings Pattern and Genome
+- Output: all starting positions in Genome where Pattern appears as a substring
+    - code is: bi3_2_patternMatching.py
+    - So "ATGATCAAG" appears total of 17 times (3 times in ori, 14 within whole genome)
+    - and its complement appears the same number of times as well
