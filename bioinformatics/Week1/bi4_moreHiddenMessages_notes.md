@@ -1,4 +1,4 @@
-# Explosiong of hidden messages
+# Explosion of hidden messages
 - So from previous note we saw something interesting, but we shouldn't jump to conclusion yet.
     - We should check the ori regions of other bacteria and see if it was not a fluke
     - here we test the ori region of Thermotoga petrophila

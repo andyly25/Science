@@ -13,17 +13,17 @@
             - **dispersive**: some mechanism breaks DNA backbone into pieces and splices intervals of synth. DNA
                 - each daughter molecules is a patchwork of old and new double stranded DNA
             - ![3 models from 1950s](https://stepik.org/media/attachments/lessons/13/replication_models_one_round_1.png "3 models 1950's from stepik.org")
-            - Knowing DNA struct. contains <sup>14</sup>N (not sure if this will add superscript) and is more abundant than <sub>15</sub>N, Messelson and Stahl gre E. coli in <sub>5</sub>N medium causing bacteria gain weight
-                - once bacterial DNA saturated with <sub>15</sub>N, transfered bacteria to less dense <sub>14</sub>
-                - This results in the newly synthesized DNA containing exclusively <<sub>14</sub>N, and the 3 hypothesis for DNA replication predicted differently. 
-                    - conservative predict half E. coli DNA will have <<sub>15</sub>N and therefore be heavier.
-                        - and other half only <<sub>14</sub>N and be lighter
+            - Knowing DNA struct. contains <sup>14</sup>N (not sure if this will add superscript) and is more abundant than <sup>15</sup>N, Messelson and Stahl gre E. coli in <sup>5</sup>N medium causing bacteria gain weight
+                - once bacterial DNA saturated with <sup>15</sup>N, transfered bacteria to less dense <sup>14</sup>
+                - This results in the newly synthesized DNA containing exclusively <<sup>14</sup>N, and the 3 hypothesis for DNA replication predicted differently. 
+                    - conservative predict half E. coli DNA will have <<sup>15</sup>N and therefore be heavier.
+                        - and other half only <<sup>14</sup>N and be lighter
                         - when try separated DNA according to weight by usage of centrifuge, all DNA had same density (conservative method can now be shot down)
                     - The other 2 models predicted all DNA after one round replication having same density
-                        - dispersive model should contain 25% <sub>15</sub>N and 75% <sub>14</sub>N and all having same density.
+                        - dispersive model should contain 25% <sup>15</sup>N and 75% <sup>14</sup>N and all having same density.
                         - Semiconservative would divide into 2 different densities.
                         - ![2nd round replication](https://stepik.org/media/attachments/lessons/13/replication_models_2.png "2nd round replication, from stepik.org")
-                            - **semiconservative won** out, and even after 3 rounds, a quarted DNA would have <sub>15</sub>N and remaining 75% is lighter only <sub>14</sub>N
+                            - **semiconservative won** out, and even after 3 rounds, a quarted DNA would have <sup>15</sup>N and remaining 75% is lighter only <sup>14</sup>N
         - *DETOUR*: Directionality of DNA strands
             - sugar componant of nucleotide has ring of 5 carbon atoms labeled 1,2,3,4,5 on figure
                 - ![sugar](https://stepik.org/media/attachments/lessons/14/nucleotide_4.png "sugar molecule from stepik.org")
