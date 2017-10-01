@@ -43,9 +43,11 @@ def frequentWords(text, k):
     # return 
     return removedDups
 
+# print(frequentWords("CGGAGGACTCTAGGTAACGCTTATCAGGTCCATAGGACATTCA", 3))
+
 k=5
 text2 = "CCGAACACCCGTACACCGAACACCACACCACACCTTGCACACCACACCTACACCACACACCACACCGGACACCCACACCCACACCACGAACACCGAGAGTACACCTA"
-print(frequentWords(text2, k))
+# print(frequentWords(text2, k))
 
 
 

@@ -37,6 +37,8 @@ def PatternCount(Pattern, Text):
             count = count + 1
     return count
 
+# print(PatternCount("CGCG", "CGCGATACGTTACATACATGATAGACCGCGCGCGATCATATCGCGATTATC"))
+# print(True or not False and False)
 # Now, set Text equal to the ori of Vibrio cholerae and Pattern equal to "TGATCA"
 Text = "ATCAATGATCAACGTAAGCTTCTAAGCATGATCAAGGTGCTCACACAGTTTATCCACAACCTGAGTGGA"
 "TGACATCAAGATAGGTCGTTGTATCTCCTTCCTCTCGTACTCTCATGACCACGGAAAGATGATCAAGAGAGGATGA"
