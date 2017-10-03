@@ -1,0 +1,10 @@
+# Quiz 1: (No work shown, so think it out yourself)
+- Note, quiz questions are randomized so take these with a grain of salt and use as reference
+1. True or False: The Hidden Message Problem is a well-defined computational problem. (False)
+2. A variable that can have only two values – True or False – is called what? (Boolean)
+3. Compute PatternCount("AAA", "GACCATCAAAACTGATAAACTACTTAAAAATCAGT"). (6)
+4. The expression "True and not (False or False)" returns what? (True)
+5. What is the most frequent 3-mer of "TAAACGTGAGAGAAACGTGCTGATTACACTTGTTCGTGTGGTAT" ? (GTG)
+6. Which data structure in Python consists of a set of key-value pairs? (Dictionary)
+7. What is the reverse complement of "CCAGATC" ? (GATCTGG)
+8. In Python, how do we initialize an empty list named items? (items[])
