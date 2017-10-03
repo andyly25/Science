@@ -47,3 +47,6 @@ ___
     - code is: bi3_2_patternMatching.py
     - So "ATGATCAAG" appears total of 17 times (3 times in ori, 14 within whole genome)
     - and its complement appears the same number of times as well
+
+___
+[Previous](https://github.com/birisora/Science/blob/master/bioinformatics/Week1/bi2_hiddenMessagesInRep_notes.md) <strong>-</strong> [Main Page](https://github.com/birisora/Science/tree/master/bioinformatics) <strong>-</strong> [Next](https://github.com/birisora/Science/blob/master/bioinformatics/Week1/bi4_moreHiddenMessages_notes.md)

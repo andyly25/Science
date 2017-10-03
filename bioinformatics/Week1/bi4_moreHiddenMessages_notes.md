@@ -21,3 +21,19 @@ ___
     - They did it for us and stated
     - > When we used this algorithm to look for clumps in the Escherichia coli (E. coli) genome, the workhorse of bacterial genomics, we found hundreds of different 9-mers forming (500, 3)-clumps in this genome.  It is absolutely unclear which of these 9-mers might represent a DnaA box in the bacterium’s ori region.
     - unseasoned researcher might give up, but the more seasoned will try learn more about details of replication in hopes provide new insights to find ori.
+
+### Hidden rant
+Let's move my rant to here so it's not as easy to find
+
+I think it is a good idea for me to try to learn some other science related knowledge since there are many jobs that requires it. Who knows if it will count since it is all connections, degrees, and memorize these trivia probably Googled up that we won't ever use in the workforce these days...
+It should be more of: *can you learn?*
+
+Give me an assignment and a couple days and I'll learn what is needed to get it done. Simple as that. There are vast amount of easily accessible knowledge on the web and learning what's needed is easier than ever. Can't expect people to be walking encyclopedias off the bat. 
+
+Not like throw a ball park question of: define how the Big Bang came to be and be sure to name all the big honchos in those theories as best as you can. Be as detailed as you can as we are checking off from our checklist. Then they mark your name off the list and decide to never give a phone call, and if they did it will be: "We like you, but sorry there are better fishes in the sea."
+
+It somehow became a rant...
+
+
+___
+[Previous](https://github.com/birisora/Science/blob/master/bioinformatics/Week1/bi3_hiddenMessageMore_notes.md) <strong>-</strong> [Main Page](https://github.com/birisora/Science/tree/master/bioinformatics) <strong>-</strong> [Next](https://github.com/birisora/Science/tree/master/bioinformatics/Week2)

@@ -36,3 +36,5 @@ ___
         - experiments have shown that bacterial DnaA boxes are usually 9 nucleotides long. 
         - there are a total of 4 total 9 mers that appeared 3 times, so one of those 4 could be it.
 
+___
+[Previous](https://github.com/birisora/Science/blob/master/bioinformatics/Week1/bi1_genomeReplication_notes.md) <strong>-</strong> [Main Page](https://github.com/birisora/Science/tree/master/bioinformatics) <strong>-</strong> [Next](https://github.com/birisora/Science/blob/master/bioinformatics/Week1/bi3_hiddenMessageMore_notes.md)

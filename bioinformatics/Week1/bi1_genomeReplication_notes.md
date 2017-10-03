@@ -39,3 +39,5 @@ ___
             1. Computational methods are faster than experimental approaches
             2. results of many experiments cannot be interpretted without computational analysis
             3. experimental approaches to ori prediction are time consuming and only done for a few species so far.
+___
+[Previous](https://github.com/birisora/Science/tree/master/bioinformatics/Week1) <strong>-</strong> [Main Page](https://github.com/birisora/Science/tree/master/bioinformatics) <strong>-</strong> [Next](https://github.com/birisora/Science/blob/master/bioinformatics/Week1/bi2_hiddenMessagesInRep_notes.md)
