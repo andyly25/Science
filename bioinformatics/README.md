@@ -7,4 +7,6 @@ I'll be taking UC San Diego **Biology Meets Programming: Bioinformatics for Begi
 
 ## Course content:
 1. Where in Genome does Replication Begin?
+    - [Week 1](https://github.com/birisora/Science/tree/master/bioinformatics/Week1)
+    - [Week 2](https://github.com/birisora/Science/tree/master/bioinformatics/Week2)
 2. Which DNA Patterns Play the Role of Molecular Clocks
