@@ -32,3 +32,7 @@ ___
 - With the modified algorithm we identify the most frequent 9-mers (with 1 mismatch) within a window of length 500 starting at position 3923620 of the E. coli genome.
     - The experimentally confirmed DnaA box in E. coli (TTATCCACA) is indeed a most frequent 9-mer, along with its reverse complement TGTGGATAA (with 1 mismatch)
     - However, we find 5 other 9-mers with their complements appearing 4 times with 1 mismatch
+    - we do not know if any of the other 9-mers serve in the E. coli genome 
+        - could be other hidden messages that have nothing to do with replication
+- conclusion: even though computational analysis can be powerful, bioinformaticians should collaborate with biologists to verify their predictions
+    - summary: computer scientists narrow down the search for ori in a genome and then biologists by hit and trial find the correct ori.

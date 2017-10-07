@@ -20,9 +20,14 @@ def Skew(Genome):
             skew[i] = skew[i-1]
     return skew
 
-# def main():
-#     print(Skew("CATGGGCATCGGCCATACGCC"))
+def main():
+    skew = Skew("GATACACTTCCCGAGTAGGTACTG")
+    print(skew)
+    maxx = max(skew.values())
+    print(maxx)
+    maxKey = [k for k in skew if skew[k] == maxx]
+    print(maxKey)
 
-# # Having this won't let main be run when imported
-# if __name__ == '__main__':
-#     main()
+# Having this won't let main be run when imported
+if __name__ == '__main__':
+    main()

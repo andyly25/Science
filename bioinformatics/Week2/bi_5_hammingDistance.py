@@ -12,8 +12,8 @@ def HammingDistance(p, q):
     return count
 
 def main():
-    p = "GGGCCGTTGGT"
-    q = "GGACCGTTGAC"
+    p = "CAGAAAGGAAGGTCCCCATACACCGACGCACCAGTTTA"
+    q = "CACGCCGTATGCATAAACGAGCCGCACGAACCAGAGAG"
     print(HammingDistance(p, q))
 
 if __name__ == '__main__':
