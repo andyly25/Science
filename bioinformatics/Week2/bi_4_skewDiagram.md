@@ -1,0 +1,17 @@
+# The Skew Diagram:
+- ![t petrophila count](http://bioinformaticsalgorithms.com/images/Replication/t_petrophila_nucleotide_counts.png "from stepik.org")
+- Scientists use a more accurate approach fo G and C when searching for ori
+    - total of G and C is - on RHS and + on FHS
+    - so our idea is to traverse the genome, keeping track difference between G and C
+        - if difference starts increasing we are on FHS and vice versa
+        - ![Chart traversing genome skew](http://bioinformaticsalgorithms.com/images/Replication/increasing_decreasing_skew.png "from stepik.org")
+        - we'll use a **skew array** by keep track of the diff between # of G and C encountered
+            - defined by setting skew[i] = # ofccurence G - C in first i nucleotides of Genome
+            - skew[0] = 0
+            - The code will be in `bi_4_skewArray.py`
+- skew diagrom of Genome defined by plotting i against Skew[i] from 0 to len Genome
+    - Based on the example for the code assignment, the image they provided was
+    - ![skew array diagram](http://bioinformaticsalgorithms.com/images/Replication/skew_array.png "from setpik.org")
+    - Now let's do a large scale version for E.coli genome
+    - ![e.coli skew chart](http://bioinformaticsalgorithms.com/images/Replication/skew_diagram_ecoli.png "from steik.org")
+        - so based on this image, ori should be located at 3923620

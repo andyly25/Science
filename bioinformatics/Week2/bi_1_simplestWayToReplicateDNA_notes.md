@@ -15,3 +15,14 @@
             - two of these are traversed from ori to ter 5' -> 3' and called **forward half-strands**
             - the other half are **reverse half-strands** going in the 3' -> 5' directions
             - ![forward and reverse half-strands](http://bioinformaticsalgorithms.com/images/Replication/half_strands.png "from stepik.org")
+            - So the ori will be found at the minimum
+
+___
+
+## Minimum skew problem
+- Minimum Skew Problem:  Find a position in a genome where the skew diagram attains a minimum. 
+    - Input: A DNA string Genome. 
+    - Output: All integer(s) i minimizing Skew[i] among all values of i (from 0 to len(Genome)).
+    - > Write a function MinSkew taking a DNA string Genome as input and returning all integers i minimizing Skew[i] for Genome. Then add this function to Replication.py. (Hint: make sure to call Skew(Genome) as a subroutine, and keep in mind that Python has a built-in min function in addition to max.)
+        - code located at: bi_4_minimumSkew.py
+        
