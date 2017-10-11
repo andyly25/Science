@@ -9,6 +9,7 @@
     - We'll first focus on plants, since vital for plants and their photosynthesis, flowering and etc
 
 ___
+
 ## Gene Expression
 - **Central Dogma of Moelecular Biology**: DNA makes RNA makes protein
     - DNA corresponding to gene is **transcribed** into a strand of RNA composed of 4 **ribonucleotides**
@@ -27,6 +28,7 @@ ___
     ![20 amino acid chart](http://bioinformaticsalgorithms.com/images/Antibiotics/genetic_code.png "from stepik.org 20 amino acid chart")
 
 ___
+
 ## Detour: Discovery of Codons and Split Genes
 - 1961, Sydney Brenner and Francis Crick est. rule of "one codon, one amino acid" during protein translation
     - Observed deleting single nucleotide or 2 consec. nucleotides in a gene dramatically alters the protein
@@ -48,6 +50,7 @@ ___
                 - introns are still a mystery, viewed as either junk DNA or could possibly contain important regulatory elemnts.
 
 ___
+
 ## Regulatory proteins
 - Every plant cell keeps track of day and night independently of other cells.
     - 3 plant genes: LCY, CCA1, TOC1 are clock's master timekeepers
