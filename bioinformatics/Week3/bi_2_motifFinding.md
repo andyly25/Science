@@ -9,11 +9,11 @@
     - e.g. with a fly if you infect with some bacterium, will activate its **immunity gene** to fight 
         - thus some genes with ^ expressions after infection are immunity genes
             - NF-kB: binding site of a transcription factor activates varous immunity genes in flies 
-
-___
-
-
-## Placholder 
+- What happens if instead of implanting same pattern into all strings, the patterns are mutated
+    - changing nucleotides at 4 randomly selected positions within each implanted 15-mer.
+    - Our frequent words function will no longer help us.
+    - A DnaA box is a pattern that clumps or appear frequently within DNA string
+        - However, regulatory motif is a pattern that appears at least once ine each one of several different regions scattered throughout genome.
 
 ___
 
@@ -27,5 +27,3 @@ ___
             - ^ expression level of gene, ^ intensity of fluorescent signal on array
 - since an array can contain millions of probes, can meaure many genes in a single experiment
 - DNA experiment identifying evening element measured expression of 8000 genes
-
-___
