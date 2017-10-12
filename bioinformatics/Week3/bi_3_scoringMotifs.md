@@ -73,7 +73,10 @@ ___
 - Runtime of Brute force
     - There are n-k+1 choices of k0mers in each t strings so.. (n-k+1)<sup>t</sup> different ways to form motifs
     - each choice Motifs we calculate Score(Motifs) taking kxt steps
-    - Thus, assuming k smaller than n, run time is ((n-k+1)<sup>t</sup>) x k x t
+    - Thus, assuming k smaller than n, run time is ((n-k+1)<sup>t</sup>)•k•t
+        - Note: just discovered option + 8 gave me the middle dot symbol, never knew option had that option!
         - for subtle motif problem this is on order of 10<sup>29</sup> steps
     - We have assumed k is known in advance, but this not the case in practice
         - so we are forced to run for different values of k and deduce correct motif length
+
+
