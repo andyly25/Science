@@ -42,4 +42,38 @@ count = {"A": [2, 2, 0, 0, 0, 0, 9, 1, 1, 1, 3, 0],
          "T": [7, 2, 0, 0, 1, 1, 0, 5, 8, 7, 3, 4]
         } 
 ```
-- Code for Count(Motif) in bi_3_countMotif.py 
+- Code for Count(Motif) in bi_3_countMotif.py
+- By dividing all the elements in matrix by number of rows we get a profile matrix.
+![motifs, score, count, profile](http://bioinformaticsalgorithms.com/images/Motifs/motifs_score_count_profile.png "from stepik.org") 
+- We can generate Count(Motifs) in order to compute Profile(Motifs)
+    - divide each element of count matrix by num of rows in couunt matrix
+    - Code is in `bi_3_profileMotifs.py`
+- With profile motifs we can now form a consensus string
+    - from most popular nucleotides in each column of motifs matrix
+    - if we select motifs from cllection of upstream regions 
+        - it provides a candidate regulatory motif for these regions
+    - can implement by using Count(motifs) as subroutine
+        - note: jth symbol of consensus string is equal to symbol correspond max element in col j Count(Motifs)
+        - code is in `bi_3_consensusMotifs.py`
+- Now we can compute score motifs by constructing a consensus first
+    - then summing num of symbols in j col that dont match symbols in j col of consensus
+    - found in `bi_3_scoringMotifs.py`
+
+___
+
+# The Motiff Finding Problem
+- Motif Finding Problem:  Given a collection of strings, find a set of k-mers, one from each string, that minimizes the score of the resulting motif. 
+    - Input: Collection of strings Dna and an integer k
+    - Output: A collection of Motifs of k-mers, one from each string Dna, minimizing Score(Motifs) among all possible choices of k-mers
+- **Brute force search** (AKA exhaustive search) is a general problem solving exploring all possible candidate solutions 
+    - checks if each candidate will solve the problem
+    - This method will probably take literally forever
+- benchmark our motif finding algorithms by using a **Subtle Motif Porblem**
+    - refers to implanting a 15 mer with 4 random mutations in 10 randomly generated 600 nucleotide long strings
+- Runtime of Brute force
+    - There are n-k+1 choices of k0mers in each t strings so.. (n-k+1)<sup>t</sup> different ways to form motifs
+    - each choice Motifs we calculate Score(Motifs) taking kxt steps
+    - Thus, assuming k smaller than n, run time is ((n-k+1)<sup>t</sup>) x k x t
+        - for subtle motif problem this is on order of 10<sup>29</sup> steps
+    - We have assumed k is known in advance, but this not the case in practice
+        - so we are forced to run for different values of k and deduce correct motif length
