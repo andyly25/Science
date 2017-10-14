@@ -18,3 +18,31 @@
         - code is found in `bi_4_profileMostProbable.py`
 - Greedy motif search alg. begins by setting BestMotifs = 1st k-mer from each string in DNA
     - goes through all possible k-mers from each string and then checks if outscores current best scoring motifs
+
+___
+
+## Motifs in tuberculosis
+- **tuberculosis(TB)**: infectious disease caused by *Mycobacterium tuberculosis (MTB)* 
+    - sucessful because can persist in humans for decades without causing disease.
+    - 1/3rd of the world population has latent MTB infections
+    - So scientists are interested in finding out what makes a disease latent and how it activates within host
+    - They must have a way to shut down expression of most genes and stay dormant
+        - **sporulation**: hibernation in bacteria
+            - many bacteria form protective and metabolically dormant sports that can survive in tough conditions
+            - allows to persist until conditions improve.
+    - **hypoxia**: oxygen shortage associated with latent forms of TB
+        - MTB dormant in low oxygen environment 
+        - Important identify MTB genes responsible for development of latent state under hypnoxic conditions
+            - Goal: find **master regulator** (transcription factor) that senses shortage of oxygen 
+                - that affects expressions of many genes, allowing MTB to adapt
+    - 2003, found the **dormancy survival regulator (DosR)**
+        - transcription factor regulate genes whose expressions change under hypnoxic conditions
+        - biologists performed a DNA array experiment and found 25 genes whose expressions changed dramatically
+
+___
+
+## Analyzing greedy motif finding
+- runs fast trading accuracy for speed
+    - however if ran on on the Subtle Motif Dataset, GreedyMotifSearch returns the 15-mer "gtAAAtAgaGatGtG" (total score: 58), which varies greatly from the true implanted motif "AAAAAAAAGGGGGGG".
+    - zeroes in the profile matrix is a persistent problem
+    

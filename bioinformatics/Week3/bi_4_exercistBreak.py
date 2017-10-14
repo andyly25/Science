@@ -22,9 +22,17 @@ def main():
         'T': [0.7, 0.2, 0.0, 0.0, 0.1, 0.1, 0.0, 0.5, 0.8, 0.7, 0.3, 0.4]
     }
 
+    profile2 = {
+        'A': [0.4, 0.3, 0.0, 0.1, 0.0, 0.9],
+        'C': [0.2, 0.3, 0.0, 0.4, 0.0, 0.1],
+        'G': [0.1, 0.3, 1.0, 0.1, 0.5, 0.0],
+        'T': [0.3, 0.1, 0.0, 0.4, 0.5, 0.0]
+    }
+
     # We want to compute this for our exercise
     print(Pr("TCGTGGATTTCC", profile))
     print(Pr("ACGGGGATTACC", profile))
+    print(Pr("GAGCTA", profile2))
 
 if __name__ == '__main__':
     main()
