@@ -1,0 +1,13 @@
+# Motif Finding meets Oliver Cromwell
+- 1650, Oliver Cromwell made a famous appeal to Church of Scotland wrge them see errors of their royal alliance
+    - his quote inspired a statistical maxim called: **Cromwell's rule**
+        - we should not use probabilities of 0 or 1 unless we are talking about logical statements of True or False
+        - We should allow a small probability for extremely unlikely events
+- To improve unfair scoring, we substitute zeroes with small numbers called **pseudocounts**
+    - one introduction is through **Laplace's Rule of Succession**
+        - this is similar to the principles that was used to calculate prob. sun will rise tomorrow
+        - For our case we will add 1 to each elements in our Count(Motifs)
+- Then from the last lesson, we just applied this concept to our Count and Profile
+    - Then fix all our functions to apply it... so it was mostly a copy and paste. 
+- Using this method to solve Subtle Motif Problem returns a collection of 15-mers Motifs with Score(Motifs) = 41 and Consensus(Motifs) = "AAAAAtAgaGGGGtt".
+    - compared to "gttAAAtAgaGatGtG" with Score(Motifs) = 58 of the previous algorithm we made
