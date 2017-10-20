@@ -1,0 +1,11 @@
+# Gibbs Sampling
+- A more iterative algorithm compared to random motif search we made.
+    - discards a single kmer from current set of motifs at each iteration 
+    - decides to keep or replace with new one
+    - moves with mroe caution in space of all motifs
+    - ![random vs gibs](http://bioinformaticsalgorithms.com/images/Motifs/randomized_vs_gibbs.png "from stepik.org gibs vs random")
+- starts with randomly chosen kmers in each t DNA strings
+    - but makes a *random* choice at each iteration.
+    - uses list t randomly selected kmer motifs to come up with another set kmers
+    - randomly selects int i between 0 and t-1 and randomly changes a single kmer motif[i]
+- Note: there will be a problem with 0's again so we have to use pseudocounts once again
