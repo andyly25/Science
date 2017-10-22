@@ -169,6 +169,50 @@ def Motifs(Profile, Dna):
         motifs.append(probKmer)
     return motifs
 
+# Input:  A set of kmers Motifs
+# Output: Count(Motifs)
+def Count(Motifs):
+    count = {} # initializing the count dictionary
+    # your code here
+    # we grab the len of one of our Motif values
+    k = len(Motifs[0])
+    # Now we loop through each ont of the protein symbols
+    for symbol in "ACGT":
+        # initialize a list for each symbol
+        count[symbol] = []
+        # append a 0 for each element in the matrix
+        for j in range(k):
+            count[symbol].append(0)
+
+    # Now we grab len of how many motifs we have
+    t = len(Motifs)
+    # loop through that length
+    for i in range(t):
+        # now go through len of K again
+        for j in range(k):
+            # grab the symbol for that matrix
+            symbol = Motifs[i][j]
+            # increment by 1 for that symbol
+            count[symbol][j] += 1
+    return count
+
+# Input:  A list of kmers Motifs
+# Output: the profile matrix of Motifs, as a dictionary of lists.
+def Profile(Motifs):
+    t = len(Motifs)
+    k = len(Motifs[0])
+    profile = {}
+    # insert your code here
+    # set profile equal to Count motifs
+    profile = Count(Motifs)
+    # we loop through length of the motif (moving horizontally)
+    for i in range(k):
+        # loop through each symbol (start from going top to bottom A, C, G, T)
+        for symbol in "ACGT":
+            # We now devide each element by t, number of rows of rows
+            profile[symbol][i] = profile[symbol][i]/t
+    return profile
+
 def main():
     k = 8 
     t = 5
@@ -182,6 +226,12 @@ def main():
     print(RandomizedMotifSearch(Dna, k, t))
 
     Dna2 = [
+        "ATGAGGTC",
+        "GCCCTAGA",
+        "AAATAGAT",
+        "TTGTGCTA"
+    ]
+    Dna2a = [
         "TGACGTTC",
         "TAAGAGTT",
         "GGACGAAA",
@@ -192,6 +242,12 @@ def main():
     print(RandomizedMotifSearch(Dna2, k, t))
 
     Dna3 = [
+        "GTC",
+        "CCC",
+        "ATA",
+        "GCT"
+    ]
+    Dna3a = [
         "TGA",
         "GTT",
         "GAA",
@@ -199,7 +255,12 @@ def main():
     ]
     k = 3
     t = len(Dna3)
-    print(RandomizedMotifSearch(Dna2, k, t))
+    motif = RandomizedMotifSearch(Dna3, k, t)
+    motif2 = RandomizedMotifSearch(Dna3a, k, t)
+    print(motif)
+
+    print(Motifs(Profile(motif), Dna2))
+    print(Motifs(Profile(motif2), Dna2a))
 
 if __name__ == '__main__':
     main()
