@@ -20,6 +20,9 @@ def Normalize(Probabilities):
 def main():
     Probabilities = {'A': 0.1, 'C': 0.1, 'G': 0.1, 'T': 0.1}
     print(Normalize(Probabilities))
+    Probabilities2 = {'1': 0.22, '2': 0.54, '3': 0.58, '4': 0.36, '5': 0.3 }
+    print(Normalize(Probabilities2))
+    
 
 if __name__ == '__main__':
     main()

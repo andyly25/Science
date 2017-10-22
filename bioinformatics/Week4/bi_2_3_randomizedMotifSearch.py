@@ -181,5 +181,25 @@ def main():
     ]
     print(RandomizedMotifSearch(Dna, k, t))
 
+    Dna2 = [
+        "TGACGTTC",
+        "TAAGAGTT",
+        "GGACGAAA",
+        "CTGTTCGC"
+    ]
+    k = 3
+    t = len(Dna2)
+    print(RandomizedMotifSearch(Dna2, k, t))
+
+    Dna3 = [
+        "TGA",
+        "GTT",
+        "GAA",
+        "TGT"
+    ]
+    k = 3
+    t = len(Dna3)
+    print(RandomizedMotifSearch(Dna2, k, t))
+
 if __name__ == '__main__':
     main()
